@@ -37,7 +37,7 @@ export default function App() {
   const [draft, setDraft] = useState(DEFAULT_URL);
   const [committed, setCommitted] = useState(DEFAULT_URL);
   const [season, setSeason] = useState<SeasonId>('summer');
-  const [species, setSpecies] = useState<SpeciesId>('castle');
+  const [species, setSpecies] = useState<SpeciesId>('oak');
   const [qrStyle, setQrStyle] = useState<QrStyle>('voxel');
   const [blossom, setBlossom] = useState<BlossomId>('blush');
   const [activeTab, setActiveTab] = useState<DockTab>('worlds');
